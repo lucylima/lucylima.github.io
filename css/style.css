@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+html {scroll-behavior: smooth;}
+* {margin: 0; padding: 0;}
+section {margin-bottom: 2rem;}
+
+body {
+  box-sizing: border-box;
+  background-color: black;
+  color:white;
+  font-family: 'IBM Plex Mono', monospace;
+  scroll-behavior: smooth;
+}
+
+.roxo {
+  background-color: #5700ad;
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+}
+.apresentacao {
+  margin-top: 9rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.navsobr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.3rem;
+  gap: 7px;
+
+}
+
+#menu {
+  display: flex;
+  position: fixed;
+  right: 0%;
+  flex-direction: row;
+  justify-content: end;
+  background-color: #5700ad;
+  width: 100%;
+}
+#menu li {
+  display: flex;
+  padding: 0.7rem;
+}
+#menu li:hover {
+  background-color: #4d0099;
+  text-decoration: underline;
+}
+#menu > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+.topo {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sobre {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.topicos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 2rem;
+  gap: 3rem;
+}
+.contato {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.contatos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+ 
+}
+#linha {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+.links {
+  text-decoration: none;
+  color: white;
+}
+.links > i {
+  font-size: 4rem;
+}
+
+#titulosobre {
+margin-left: 2rem;
+}
+#contatotitulo {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.habilidades {
+  display: flex;
+  flex-direction: column;
+  align-items: cemter;
+  justify-content: center;
+  margin-right: 10%;
+}
+#linha1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+#linha2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+#qualidades {
+  padding-right: 2rem;
+  overflow-wrap: break-word;
+  max-width: 80%;
+}
+
+.habilidades > div > i {
+  font-size: 4rem;
+}
+
+.projetos {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 3rem;
+  max-width: 17rem;
+  border-radius: 1rem;
+  background-color: #5700ad;
+  box-shadow: 0 0 1rem #5700ad;
+}
+
+.cardimagem {
+  border-radius: 3px;
+  border: solid 2px white;
+  width: 20rem;
+}
+.cardtitulo {
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.cardescricao {
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+  text-align: center;
+}
+.container-projeto  {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+
+}

@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+    #menu {
+      position: fixed;
+      justify-content: space-between;
+    }
+    .navsobr {
+      margin-bottom: 5rem;
+    }
+    .apresentacao h1, h2 {
+      font-size: x-large;
+    }
+  .apresentacao  {
+    margin-left: 1em;
+  }
+  .topicos {
+    width: 100%;
+  }
+  #qualidades {
+    width: 100%;
+  }
+  .habilidades {
+    display: none;
+  }
+  .container-projeto {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
